@@ -16,6 +16,7 @@ export default function Home() {
         </p>
       </div>
       <div className="">
+
         <Link
           href="/login"
           className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
@@ -23,14 +24,28 @@ export default function Home() {
           <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
         </Link>
 
+        <br />
+
+        <Link
+          href="/dashboard"
+          className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+        >
+          <span>Dashboard</span>
+        </Link>
+
+      </div>
+      <div className="">
+
       </div>
 
       <div className="text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-center">
-        <h4>I want write something <a href="https://medium.com" target="_blank"
-          rel="noopener noreferrer"><strong>here</strong></a>.</h4>
-
-
-
+        <h4>
+          I want write something
+          <a href="https://medium.com" target="_blank"
+            rel="noopener noreferrer"><strong>here</strong>
+          </a>
+          .
+        </h4>
       </div>
     </main>
   );
